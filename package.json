@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "collection-of-subgraphs",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@apollo/subgraph": "^2.6.2",
+    "@apollo/composition": "^2.6.2",
+    "@apollo/gateway": "^2.6.2",
+    "@envelop/apollo-federation": "5.0.0",
+    "graphql": "^16.8.1",
+    "graphql-yoga": "^5.1.1",
+    "itty-router": "^4.0.26"
+  }
+}
