@@ -1,0 +1,14 @@
+{
+  "name": "supergraphs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "graphql": "16.8.1",
+    "@apollo/composition": "2.6.2",
+    "@apollo/federation-internals": "2.6.2",
+    "@apollo/query-planner": "2.6.2"
+  }
+}
