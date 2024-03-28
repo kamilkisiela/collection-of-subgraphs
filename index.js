@@ -1,4 +1,19 @@
 /// @ts-check
+
+/*
+
+To compose and validate the subgraphs:
+1. Add <subgraph-name>.graphql files in /playground directory.
+2. Run `npm start`.
+It will generate a supergraph schema in /playground/_supergraph.graphql or print errors.
+
+
+If you wish to see a query plan:
+1. Add a query in /playground/_query.graphql 
+2. Run `npm start -- --plan`.
+
+*/
+
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
 import { parse, print, Source } from "graphql";
